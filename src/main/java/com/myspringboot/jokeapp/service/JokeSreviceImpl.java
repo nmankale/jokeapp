@@ -10,9 +10,15 @@ public class JokeSreviceImpl implements JokeService{
 	private final ChuckNorrisQuotes chuckNorrisQuotes;
 	
 	
-	public JokeSreviceImpl() {
+//	public JokeSreviceImpl() {
+//		super();
+//		this.chuckNorrisQuotes = new ChuckNorrisQuotes();
+//	}
+
+
+	public JokeSreviceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
 		super();
-		this.chuckNorrisQuotes = new ChuckNorrisQuotes();
+		this.chuckNorrisQuotes = chuckNorrisQuotes;
 	}
 
 
